@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="full-screen">
+      <div class="game-window">
+        <div class="game-stats-bar">
+          <!-- player health bar -->
+          <div class="player-health">
+            <div class="health-bar-container-player"></div>
+            <div class="health-bar-player" id="player-health"></div>
+          </div>
+          <!-- count bar -->
+          <div class="count-bar" id="counter">10</div>
+          <!-- enemey health bar -->
+          <div class="enemy-health">
+            <div class="health-bar-container-enemy"></div>
+            <div class="health-bar-enemy" id="enemy-health"></div>
+          </div>
+        </div>
+        <div class="modal-message" id="modal-message">tie</div>
+        <canvas id="canvas"></canvas>
+      </div>
+      <div class="right-side-window">
+        <h1>Modern Samurai</h1>
+        <h3>Topics covered</h3>
+        <ul>
+          <li>OOP principles</li>
+          <li>physics from scratch</li>
+          <li>gravity</li>
+          <li>canvas context "2d"</li>
+          <li>player 1</li>
+          <li>enemy</li>
+          <li>character controlls</li>
+          <li>attack action</li>
+          <li>health bar</li>
+          <li>game time</li>
+          <li>modal message</li>
+          <li>animations</li>
+          <li>key checker</li>
+          <li>collision detection</li>
+          <li>hit missed</li>
+          <li>win or lose scenario</li>
+          <li>overriding animations for different situation</li>
+          <li>counter</li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="./utils.js"></script>
+    <script src="./assetsClass.js"></script>
+    <script src="./fighterClass.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
