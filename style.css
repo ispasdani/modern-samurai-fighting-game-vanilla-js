@@ -87,12 +87,13 @@
 }
 
 .modal-message {
+  font-family: "Press Start 2P", cursive;
   position: absolute;
   text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #fa9600;
   font-size: 100px;
   display: none;
 }
@@ -136,5 +137,50 @@
 .right-side-window ul li {
   margin: 5px 0px;
   font-size: 18px;
+  color: #f8961e;
+}
+
+.controlls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 1024px;
+  padding: 0px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.player-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.player-one p:nth-child(1) {
+  font-size: 25px;
+  color: #d65108;
+}
+.player-one p:nth-child(2) {
+  font-size: 20px;
+  color: #f8961e;
+}
+
+.player-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.player-two p:nth-child(1) {
+  font-size: 25px;
+  color: #d65108;
+}
+.player-two p:nth-child(2) {
+  font-size: 20px;
   color: #f8961e;
 }
